@@ -3,92 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feedback Form</title>
+    <title>Login Page</title>
 </head>
 <body>
-    <h1>Feedback Form</h1>
+    <h1>Login</h1>
+
     <form>
-        <table width="50%" cellpadding="5">
-            <thead>
-                <tr>
-                    <td align="right">
-                        <label for="Name">Name:</label>
-                    </td>
-                    <td>
-                        <input type="text" id="name">
-                    </td>
-                </tr>
-         
-                <tr>
-                    <td align="right"><label for="email">Email:</label></td>
-                    <td><input type="email" id="email"></td>
-                </tr>
-                <tr>
-                    <td align="right"><label for="Password">Password:</label></td>
-                    <td><input type="password" id="password"></td>
-                </tr>
-                <tr>
-                    <td align="left"colspan="2">How do you feel about this work?:</td>
-                </tr>
-                <tr>
-                    <td align="right">Angry:</td>
-                    <td><input type="checkbox" id="angry"></td>
-                </tr>
-                <tr>
-                    <td align="right">Sad:</td>
-                    <td><input type="checkbox" id="sad"></td>
-                </tr>
-                <tr>
-                    <td align="right">Happy:</td>
-                    <td><input type="checkbox" id="happy"></td>
-                </tr>
-                <tr>
-                    <td align="right">Tired:</td>
-                    <td><input type="checkbox" id="tired"></td>
-                </tr>
-                <tr>
-                    <td colspan="2">Do you get tired a lot?</td>
-                </tr>
-                <tr>
-                    <td align="right">No</td>
-                    <td><input type="radio" id="a lot"></td>
-                </tr>
-                <tr>
-                    <td align="right">A little tired</td>
-                    <td><input type="radio"id="a little tired"></td>
-                </tr>
-                <tr>
-                    <td align="right">Tired</td>
-                    <td><input type="radio" id="didnt care"></td>
-                </tr>
-                <tr>
-                    <td align="right">Very tired</td>
-                    <td><input type="radio" id="very tired"></td>
-                </tr>
-                
-                <tr>
-                    <td align right>Further comments:</td>
-                    <td>
-                        <textarea name="message" rows="4"id=""></textarea>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Bio photo:</td>
-                    <td><input type="text"></td>
-                    <td><input type="file"></td>
-                </tr>
-                <tr>
-                    <td>Place</td>
-                    <td>
-                        <select name="" id="">
-                            <option value="kosova">Kosova</option>
-                            <option value="albania">Albania</option>
-                        </select>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <button type="submit">Submit</button>
+        <p>
+            <label for="email"><b>Write your email:</b></label>
+            <input type="email" name="email" id="email" placeholder="Email">
+        </p>
+
+        <p>
+            <label for="password"><b>Write your password:</b></label>
+            <input type="password"name="password" id="password" placeholder="Password">
+        </p>
+
+        <p>
+            <button type="submit"><b>Log in</b></button>
+        </p>
+        
+    <p><b>Don't have an account?</b> <a href="">Sign up here!</a></p>
     </form>
+    <form action="">
+<h1>Register</h1>
+<p>
+    <label for="name"><b>First Name</b></label>
+    <input type="name" name="name" id="name">
+</p>
+<p>
+    <label for="last name"><b>Last Name</b></label>
+    <input type="last name" name="last name"id="last name">
+</p>
+<p>
+    <label for="email"><b>Write your email:</b></label>
+    <input type="email" id="email" placeholder="john@doe.com">
+</p>
+<p>
+    <label for="password"><b>Write your password:</b></label>
+    <input type="password" name="password" id="password">
+</p>
+<p>
+    <label for="comfirm password"><b>Comfirm password</b></label>
+    <input type="comfirm password" name=" comfirm password" id="comfirm password">
+</p>
+<p>
+    <label for="birthday"><b>Birthday</b></label>
+    <input type="date" name="birthday" id="birthday">
+</p>
+
+    <p><b>Gender:</b></p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male"><b>Male</b></label>
+</p>
+<p>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female"><b>Female</b></label>
+</p>
+<br>
+<p>
+<input type="checkbox" id="terms" name="terms">
+<label for="terms"><b>I accept the terms and services</b></label>
+</p>
+<p>
+    <button type="submit"><b>Sign up</b></button>
+</p>
+<p><b> Already have an account?</b><a href="">Log in here</a></p>
+
+
+    </form>
+
+
+
+
 </body>
 </html>
