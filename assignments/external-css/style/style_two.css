@@ -1,0 +1,17 @@
+body{background-color:white;}
+h1{background-color:rgb(61, 9, 9);
+color: white;
+transition:0.5s;
+padding: 15px;
+border:none;
+text-align: center;
+}
+h2{background-color:rgb(223, 181, 188);
+color: white;
+margin:10px;
+border:10px;
+transition:0.5s;
+padding: 15px;}
+p{background-color:beige;
+color: black;
+margin:20px;}

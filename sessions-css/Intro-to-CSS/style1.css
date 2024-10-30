@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    color:aliceblue
+}
+
+.wrapper {
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.wrapper div {
+    float: left;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.one {
+    background-color: purple !important;
+}
+
+.two {
+    background-color: brown;
+}
+
+.three {
+    background-color: aqua;
+}
+
+.four {
+    background-color: beige;
+}
+
+
+.wrapper:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
